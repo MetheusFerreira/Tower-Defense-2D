@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class EnemySpawnBehaviour : MonoBehaviour
 {
-    public Transform posicaoSpawn;
-    public GameObject prefab;
+    [SerializeField]
+    private Transform posicaoSpawn;
+    [SerializeField]
+    private GameObject prefab;
     
     // Start is called before the first frame update
     void Start()
